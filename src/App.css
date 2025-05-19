@@ -1,0 +1,112 @@
+/* @media (max-width: 768px) {
+  .logo-desktop {
+    display: none;
+  }
+  .logo-tablet {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+  }
+  .items-list{
+    display: none;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo-desktop {
+    display: none;
+  }
+  .logo-tablet {
+    display: block;
+  }
+  .logo-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-desktop {
+    display: block;
+  }
+  .logo-tablet {
+    display: none;
+  }
+  .logo-mobile {
+    display: none;
+  }
+} */
+
+
+
+.homeBanner{
+  background-image:url("./assets/homeBanner.png");
+  background-size: cover;
+
+  background-position: center;
+}
+
+.vector{
+
+  background-image:url("./assets/Vector.png");
+  
+  background-size: cover;
+  
+  background-position: center;
+
+
+
+}
+
+
+@media (max-width:768px) {
+  .vector {
+    display: none;
+  }
+  .homeBanner{
+
+    height: 854px;
+  }
+
+}
+
+.arrow{
+  background-image:url("./assets/arrowLine.png");
+  background-size:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+}
+
+
+/* 
+.react-datepicker__year-dropdown,
+.react-datepicker__month-dropdown {
+  @apply max-h-40 overflow-y-auto text-sm rounded-md shadow-lg bg-white border border-gray-300;
+} */
+
+.react-datepicker__year-dropdown {
+  @apply max-h-40 overflow-y-auto text-sm rounded-md shadow-lg bg-white border border-gray-300;
+}
+#features {
+  scroll-margin-top: 60px; /* Adjust based on your navbar height */
+}
+
+
+#testimonials{
+  scroll-margin-top: 250px;
+
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
